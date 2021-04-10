@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Tugas_Akhir_Logfuz_Mamdani.exe" version="1.0.0.0" publicKeyToken="e7d539aef089b8ab" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Tugas_Akhir_Logfuz_Mamdani" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Tugas_Akhir_Logfuz_Mamdani.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Tugas_Akhir_Logfuz_Mamdani.exe" size="44496">
+      <assemblyIdentity name="Tugas_Akhir_Logfuz_Mamdani" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>dWLQpJQeTPyctdtMFRHungyrrUQ1EWI36CU6UNzEdis=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Tugas_Akhir_Logfuz_Mamdani.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rl5/qDc7Jz+tB+BIbOv9iMGPlRe6YJwrjmU09dnlPcs=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=AYUARISTAN\Hp" issuerKeyHash="4ccebec0d8024ad21a9ba517b48b048ae370cb9c" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>We6CxXKq782FrxqZR808HyCI9OtneIDveZE9unYSHrU=</DigestValue></Reference></SignedInfo><SignatureValue>YzJTeSKdRwjdVC+6VidFJj+2Pmk91khoJJsG9XVGA7qEBOCqYrahgGzdsfqJAGpG52G7uhQsxy4qKkxOZcelAB8JhkoIOUw7gux8h8P11aoYcF72xFVMMFcTzhZf9vQUjknvsB++pZuJQYWbuimf5sOSKvO5NGOJVu+G2ZvOSeY=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>uid1qWInXWazKfHvX1bZHU7O45oi/H3ewuPb+WrCwKDhTKH0hft2Pr7EgFSfjQDCa/H4TDlpKvm97UY9tQptbKS89mjhGxh+SLs1lUagUUbymOPIcSmQqU5d32QVG3TlnPZfYBLiMMiEWOVD+B8hmKut6SjK4g3E3Pa2/LWUvuU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="b51e1276ba3d9179ef807867ebf488201f3ccd47991aaf85cdefaa72c582ee59" Description="" Url=""><as:assemblyIdentity name="Tugas_Akhir_Logfuz_Mamdani.exe" version="1.0.0.0" publicKeyToken="e7d539aef089b8ab" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=AYUARISTAN\Hp</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>kPD0C2U6FRhdf/rABo+d/cS8JcLxSizABeIVlgafLZk=</DigestValue></Reference></SignedInfo><SignatureValue>qIUvm5WkWTgUtPPLHfuasjL3kPk3k+PSuAU13frnxUiJWKLj0O2YPL1wpbh9ECtb6VB8dBZVtRq4PnyoC7QqqRQNOStGPHyBkY7kiySIUdpakl1O0+IK6OBMmxxSQfDhsXc3P9WsURKmCcT1AH7x+AJw7s5uCOQn2vClsGHtJeU=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>uid1qWInXWazKfHvX1bZHU7O45oi/H3ewuPb+WrCwKDhTKH0hft2Pr7EgFSfjQDCa/H4TDlpKvm97UY9tQptbKS89mjhGxh+SLs1lUagUUbymOPIcSmQqU5d32QVG3TlnPZfYBLiMMiEWOVD+B8hmKut6SjK4g3E3Pa2/LWUvuU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBzTCCATagAwIBAgIQL0zhLHLFzZ9BXtYbgDxxbzANBgkqhkiG9w0BAQsFADAlMSMwIQYDVQQDHhoAQQBZAFUAQQBSAEkAUwBUAEEATgBcAEgAcDAeFw0xNzEyMTMxMjU1NTZaFw0xODEyMTMxODU1NTZaMCUxIzAhBgNVBAMeGgBBAFkAVQBBAFIASQBTAFQAQQBOAFwASABwMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC6J3WpYiddZrMp8e9fVtkdTs7jmiL8fd7C49v5asLAoOFMofSF+3Y+vsSAVJ+NAMJr8fhMOWkq+b3tRj21Cm1spLz2aOEbGH5IuzWVRqBRRvKY48hxKZCpTl3fZBUbdOWc9l9gEuIwyIRY5UP4HyGYq63pKMriDcTc9rb8tZS+5QIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAEKHxCnL3zBEjzea+1jFOddds7SSg5Ea2ijbnDzy66Kv7weYNSaWl4bmBfwKB2N1ssQTUOz3mfIctY+XrWfkJpkZykYXUReLpKbDsOf+rNd5/jTQ1riyiodlZFkCbaNAFP+1+9iDIczJ4ei3e8x/Sb+u2nQTywKba3FJqGOzgQQU</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
